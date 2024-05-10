@@ -1,0 +1,23 @@
+
+
+h1 strong{
+    font-family: Times, "Times New Roman", Georgia, serif;
+    color: darkblue;
+}
+
+body {
+    background-color: #f0f0f0; 
+  }
+
+  .container-fluid {
+    min-height: 100vh; 
+    display: flexbox; 
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    min-height: 300px; 
+    max-height: 500px;
+    overflow-y: auto; 
+}
